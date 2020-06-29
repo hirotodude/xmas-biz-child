@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*
+Theme Name: xmas-biz-child
+Template: xmas-biz
+Description: Edit the template
+Author: Hiroto Iwasawa
+*/
+
+
+.entry-title:after, .related.products > h2:after {
+    content: '';
+    display: block;
+    width: 250px;
+    height: 1px;
+    background: #dcae50;
+    position: absolute;
+    bottom: -1px;
+    top: inherit;
+    left: 0;
+    right: 0;
+    transition: width .3s;
+}
