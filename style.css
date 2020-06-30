@@ -20,3 +20,13 @@ Author: Hiroto Iwasawa
     right: 0;
     transition: width .3s;
 }
+
+.main-navigation .toggle-menu, .secondary-bgcolor, .bordered-title:after, .widget-title:after, .top-cart-contain .top-cart-content, button, input[type="button"], input[type="reset"], input[type="submit"], .social-icons-section ul a[href*=".com"]:after, blockquote:before, blockquote:after, q:before, q:after {
+    background: rgba(0, 0, 0, .0001);
+    color: #fff;
+}
+
+.auxiliary-bar .auxiliary-nav ul li a:hover, .auxiliary-bar .auxiliary-nav ul li a:focus, .alt-bgcolor {
+    background: rgba(0, 0, 0, .0001);
+    color: #fff;
+}
